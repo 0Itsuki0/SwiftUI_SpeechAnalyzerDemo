@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98F2D3A62E6981DC00633147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98F2D3A52E6981DC00633147 /* README.md */; };
+		98F2D44A2E6BE66F00633147 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98F2D4492E6BE66F00633147 /* demo.gif */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		98F2D3972E6981CE00633147 /* SpeechAnalyzerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechAnalyzerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F2D3A52E6981DC00633147 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98F2D4492E6BE66F00633147 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		98F2D38E2E6981CD00633147 = {
 			isa = PBXGroup;
 			children = (
+				98F2D3A52E6981DC00633147 /* README.md */,
+				98F2D4492E6BE66F00633147 /* demo.gif */,
 				98F2D3992E6981CE00633147 /* SpeechAnalyzerDemo */,
 				98F2D3982E6981CE00633147 /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F2D3A62E6981DC00633147 /* README.md in Resources */,
+				98F2D44A2E6BE66F00633147 /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +262,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "mic needed!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +295,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "mic needed!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

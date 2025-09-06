@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct SpeechAnalyzerDemoApp: App {
+    let manager: SpeechAnalyzeManager = SpeechAnalyzeManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+                    .environment(manager)
+            }
         }
     }
 }
